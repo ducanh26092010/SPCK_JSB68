@@ -1,3 +1,65 @@
 body {
     background-color: #CBC7ED;
+    padding: 0;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.section-header {
+    width: 100%;
+    border: 8px solid black;
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+/* about */
+#carouselExaple .carouse-item img {
+    height: 670px;
+    object-fit: cover;
+}
+
+.about-information {
+    padding: 0 50px;
+    text-align: center;
+    font-size: large;
+}
+
+/* navigation */
+#navigation-list .card {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 100px;
+}
+
+.card .card-title a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: larger;
+}
+
+/* contact */
+#contact input, #contact textarea {
+    height: 200px;
 }

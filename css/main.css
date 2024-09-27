@@ -60,6 +60,6 @@ section {
 }
 
 /* contact */
-#contact input, #contact textarea {
+#contact textarea {
     height: 200px;
 }
